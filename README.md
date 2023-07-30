@@ -38,31 +38,13 @@
 <br>
 
 ### 项目介绍
-
-基于 `Laravel` 、 `amis` 开发的后台框架, 快速且灵活~
-
-- 基于 amis 以 json 的方式构建页面，减少前端开发工作量，提升开发效率。
-- 在 amis 100多个组件都不满足的情况下, 可自行开发前端。
-- 框架为前后端分离 (不用再因为框架而束手束脚~)。
-
+Background framework developed based on 'Laravel' and 'amis', fast and flexible~ 
+- Build pages in JSON based on AMIS to reduce the workload of front-end development and improve development efficiency.
+- In the case that more than 100 components of AMIS are not satisfied, you can develop your own front-end.
+- The frame is separated from the front and back ends (no more tied up because of the frame~).
 <br>
 
-### 内置功能
-
-- 基础后台功能
-    - 后台用户管理
-    - 角色管理
-    - 权限管理
-    - 菜单管理
-- **代码生成器**
-    - 保存生成记录
-    - 导入/导出生成记录
-    - 可使用命令清除生成的内容
-    - 无需更改代码即可生成完整功能
-- `Amis` 全组件封装 120+ , 无需前端开发即可完成复杂页面
-- `laravel-modules` 多模块支持
-- 扩展管理
-
+### Built-in features - Basic background functions - Background user management - Role management - Permission management - Menu management - **Code Generator** - Save the build record - Import/export build records - You can use the command to clean up the generated content - Build full functionality without code changes - 'Amis' fully packaged 120+ components, no front-end development required to complete complex pages - 'laravel-modules' multi-module support - Extended management
 <br>
 
 ### 截图
@@ -106,15 +88,14 @@ composer require slowlyo/owl-admin
 ```shell
 # 先发布框架资源
 php artisan admin:publish
-# 执行安装 (可以在执行安装命令前在 config/admin.php 中修改部分配置)
+# Perform the installation (you can modify some configurations in config/admin.php before executing the installation command)
 php artisan admin:install
 ```
 
 ##### 5. 运行项目
 
-启动服务, 访问 `/admin` 路由即可 <br>
-_初始账号密码都是 `admin`_
-
+Start the service and access the '/admin' route <br>
+_The initial account password is 'admin'_
 <br>
 
 ### 支持项目
